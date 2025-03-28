@@ -345,10 +345,10 @@ const ContactSection = () => {
               For bookings, press inquiries, or collaboration opportunities, reach out to my team. We'd love to hear from you!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="mailto:bookings@djbrand.com" size="lg">
+              <Button href="mailto:bookings@celearrabal.com" size="lg">
                 Booking Inquiries
               </Button>
-              <Button href="mailto:press@djbrand.com" variant="outline" size="lg">
+              <Button href="mailto:press@celearrabal.com" variant="outline" size="lg">
                 Press Contact
               </Button>
             </div>

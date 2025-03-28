@@ -82,7 +82,7 @@ const Hero = () => {
           <Button to="/schedule" size="lg">
             See Dates
           </Button>
-          <Button href="https://open.spotify.com" variant="outline" size="lg">
+          <Button href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO1NsTS1" variant="outline" size="lg">
             Listen in Spotify
           </Button>
         </motion.div>

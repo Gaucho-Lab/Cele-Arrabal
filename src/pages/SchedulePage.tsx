@@ -181,7 +181,7 @@ const SchedulePage = (): React.ReactElement => {
             <p className="text-white/70 mb-8">
               I'm available for club nights, festivals, private events, and more. Get in touch with my booking team to discuss availability and rates.
             </p>
-            <Button size="lg" href="#" variant="primary">
+            <Button size="lg" href="mailto:contact@celearrabal.com" variant="primary">
               Contact for Booking
             </Button>
           </div>

@@ -72,10 +72,10 @@ const LatestReleases = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <span className="text-primary font-medium uppercase tracking-wider mb-2 inline-block">
-            Lo ultimo
+            Latest
           </span>
           <AnimatedHeading level={2} className="text-4xl md:text-5xl" gradient>
-            Nuevos lanzamientos
+            New Launches
           </AnimatedHeading>
         </div>
         
@@ -125,7 +125,7 @@ const LatestReleases = () => {
         
         <div className="text-center mt-12">
           <Button href="https://open.spotify.com" variant="outline">
-            Ver todos los lanzamientos
+            See all
           </Button>
         </div>
       </div>
@@ -174,10 +174,10 @@ const UpcomingEvents = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="text-center mb-12">
           <span className="text-primary font-medium uppercase tracking-wider mb-2 inline-block">
-            Fechas
+            Dates
           </span>
           <AnimatedHeading level={2} className="text-4xl md:text-5xl" gradient>
-            Futuros Eventos
+            Future Events
           </AnimatedHeading>
         </div>
         
@@ -215,7 +215,7 @@ const UpcomingEvents = () => {
           
           <div className="mt-10 text-center">
             <Button to="/schedule" size="lg">
-              Ver todas las fechas
+              See all dates
             </Button>
           </div>
         </motion.div>
