@@ -26,7 +26,7 @@ const Biography = () => {
             <div className="relative z-10 rounded-lg overflow-hidden h-[600px]">
               <div 
                 className="aspect-[3/4] bg-cover bg-center"
-                style={{ backgroundImage: "url('./src/assets/images/dj-portrait.jpg')" }}
+                style={{ backgroundImage: "url('./assets/images/dj-portrait.jpg')" }}
               />
               
               {/* Stats overlay */}
@@ -108,7 +108,7 @@ const Biography = () => {
               <Button href="https://instagram.com/celearrabal">
                 Follow on Instagram
               </Button>
-              <Button href="https://open.spotify.com/playlist/${playlistId}" variant="outline">
+              <Button href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO1NsTS1" variant="outline">
                 Listen to Mixes
               </Button>
             </motion.div>
