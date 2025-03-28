@@ -11,7 +11,7 @@ import HomePage from '@/pages/HomePage'
 import SchedulePage from '@/pages/SchedulePage'
 import VenuesPage from './pages/VenuesPage'
 import AboutPage from '@/pages/AboutPage'
-import GalleryPage from '@/pages/GalleryPage'
+// import GalleryPage from '@/pages/GalleryPage'
 
 function App() {
   const location = useLocation()
@@ -46,14 +46,14 @@ function App() {
                 </PageTransition>
               } 
             />
-            <Route 
+            {/* <Route 
               path="/gallery" 
               element={
                 <PageTransition>
                   <GalleryPage />
                 </PageTransition>
               } 
-            />
+            /> */}
             <Route 
               path="/about" 
               element={

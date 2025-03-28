@@ -65,7 +65,7 @@ const Navbar = () => {
               </NavLink>
             ))}
             <motion.a
-              href="https://instagram.com/djbrand"
+              href="https://instagram.com/celearrabal"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded-full font-medium transition-colors duration-300"

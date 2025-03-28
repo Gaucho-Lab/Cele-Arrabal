@@ -19,7 +19,7 @@ const Hero = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ 
-            backgroundImage: "url('./src/assets/images/hero-bg.jpg')",
+            backgroundImage: "url('./assets/images/hero-bg.jpg')",
             filter: "brightness(0.5)"
           }}
         />
@@ -70,7 +70,7 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="text-xl md:text-2xl text-white/80 max-w-3xl mx-auto mb-10"
         >
-          El ritmo que ha cautivado a audiencias en clubes y festivales de todo el mundo.
+          The rhythm that has captivated audiences in clubs and festivals around the world.
         </motion.p>
 
         <motion.div
@@ -80,10 +80,10 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <Button to="/schedule" size="lg">
-            Ver Fechas
+            See Dates
           </Button>
           <Button href="https://open.spotify.com" variant="outline" size="lg">
-            Escuchar en Spotify
+            Listen in Spotify
           </Button>
         </motion.div>
 

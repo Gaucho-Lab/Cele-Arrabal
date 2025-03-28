@@ -105,10 +105,10 @@ const Biography = () => {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.6, duration: 0.6 }}
             >
-              <Button href="https://instagram.com/djbrand">
+              <Button href="https://instagram.com/celearrabal">
                 Follow on Instagram
               </Button>
-              <Button href="https://soundcloud.com" variant="outline">
+              <Button href="https://open.spotify.com/playlist/${playlistId}" variant="outline">
                 Listen to Mixes
               </Button>
             </motion.div>
