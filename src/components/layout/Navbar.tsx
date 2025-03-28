@@ -21,7 +21,7 @@ const Navbar = () => {
     { path: '/', label: 'HOME' },
     { path: '/schedule', label: 'TOUR DATES' },
     { path: '/venues', label: 'VENUES' },
-    { path: '/gallery', label: 'GALLERY' },
+    // { path: '/gallery', label: 'GALLERY' },
     { path: '/about', label: 'ABOUT' }
   ]
 

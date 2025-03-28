@@ -37,13 +37,13 @@ const AboutPage = (): React.ReactElement => {
       <Biography />
 
       {/* Brand Story */}
-      <BrandStorySection />
+      {/* <BrandStorySection /> */}
       
       {/* Music Philosophy */}
-      <MusicPhilosophySection />
+      {/* <MusicPhilosophySection /> */}
       
       {/* Skills & Equipment */}
-      <SkillsSection />
+      {/* <SkillsSection /> */}
       
       {/* Contact CTA */}
       <ContactSection />
@@ -345,7 +345,7 @@ const ContactSection = () => {
               For bookings, press inquiries, or collaboration opportunities, reach out to my team. We'd love to hear from you!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="mailto:bookings@celearrabal.com" size="lg">
+              <Button href="mailto:bookings@djbrand.com" size="lg">
                 Booking Inquiries
               </Button>
               <Button href="mailto:press@celearrabal.com" variant="outline" size="lg">
