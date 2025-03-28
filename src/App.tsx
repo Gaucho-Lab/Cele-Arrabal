@@ -23,7 +23,7 @@ function App() {
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
             <Route 
-              path="/" 
+              path="/Cele-Arrabal" 
               element={
                 <PageTransition>
                   <HomePage />
@@ -31,7 +31,7 @@ function App() {
               } 
             />
             <Route 
-              path="/schedule" 
+              path="/Cele-Arrabal/schedule" 
               element={
                 <PageTransition>
                   <SchedulePage />
@@ -39,7 +39,7 @@ function App() {
               } 
             />
             <Route 
-              path="/venues" 
+              path="/Cele-Arrabal/venues" 
               element={
                 <PageTransition>
                   <VenuesPage />
@@ -47,7 +47,7 @@ function App() {
               } 
             />
             <Route 
-              path="/gallery" 
+              path="/Cele-Arrabal/gallery" 
               element={
                 <PageTransition>
                   <GalleryPage />
@@ -55,7 +55,7 @@ function App() {
               } 
             />
             <Route 
-              path="/about" 
+              path="/Cele-Arrabal/about" 
               element={
                 <PageTransition>
                   <AboutPage />

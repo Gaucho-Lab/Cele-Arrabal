@@ -18,11 +18,11 @@ const Navbar = () => {
   }, [])
 
   const navLinks = [
-    { path: '/', label: 'HOME' },
-    { path: '/schedule', label: 'TOUR DATES' },
-    { path: '/venues', label: 'VENUES' },
-    { path: '/gallery', label: 'GALLERY' },
-    { path: '/about', label: 'ABOUT' }
+    { path: '/Cele-Arrabal', label: 'HOME' },
+    { path: '/Cele-Arrabal/schedule', label: 'TOUR DATES' },
+    { path: '/Cele-Arrabal/venues', label: 'VENUES' },
+    { path: '/Cele-Arrabal/gallery', label: 'GALLERY' },
+    { path: '/Cele-Arrabal/about', label: 'ABOUT' }
   ]
 
   const toggleMobileMenu = () => {
