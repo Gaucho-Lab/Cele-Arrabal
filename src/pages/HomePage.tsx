@@ -45,7 +45,7 @@ const LatestReleases = () => {
       id: '1',
       title: 'Electric Dreams',
       type: 'Single',
-      artwork: '/src/assets/images/release1.jpg',
+      artwork: './src/assets/images/release1.jpg',
       releaseDate: '2023-11-15',
       streamUrl: 'https://open.spotify.com'
     },
@@ -53,7 +53,7 @@ const LatestReleases = () => {
       id: '2',
       title: 'Midnight Sessions Vol. 3',
       type: 'EP',
-      artwork: '/src/assets/images/release2.jpg',
+      artwork: './src/assets/images/release2.jpg',
       releaseDate: '2023-09-22',
       streamUrl: 'https://open.spotify.com'
     },
@@ -61,7 +61,7 @@ const LatestReleases = () => {
       id: '3',
       title: 'Summer Vibes (feat. Luna Ray)',
       type: 'Single',
-      artwork: '/src/assets/images/release3.jpg',
+      artwork: './src/assets/images/release3.jpg',
       releaseDate: '2023-07-08',
       streamUrl: 'https://open.spotify.com'
     }

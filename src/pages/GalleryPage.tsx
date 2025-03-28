@@ -11,7 +11,7 @@ import VideoGallery from '@/components/gallery/VideoGallery';
 const galleryImages = [
   {
     id: '1',
-    src: '/src/assets/images/release1.jpg', // Replace with actual image paths
+    src: './src/assets/images/release1.jpg', // Replace with actual image paths
     alt: 'DJ performance at Ultra Music Festival',
     caption: 'Ultra Music Festival, Miami 2023',
     category: 'Performances',
@@ -19,42 +19,42 @@ const galleryImages = [
   },
   {
     id: '2',
-    src: '/src/assets/images/release2.jpg',
+    src: './src/assets/images/release2.jpg',
     alt: 'Studio session',
     caption: 'Late night studio session in Berlin',
     category: 'Studio'
   },
   {
     id: '3',
-    src: '/src/assets/images/gallery/backstage1.jpg',
+    src: './src/assets/images/gallery/backstage1.jpg',
     alt: 'Backstage with other DJs',
     caption: 'Backstage with friends at Tomorrowland',
     category: 'Backstage'
   },
   {
     id: '4',
-    src: '/src/assets/images/gallery/performance2.jpg',
+    src: './src/assets/images/gallery/performance2.jpg',
     alt: 'DJ set in Ibiza',
     caption: 'Sunset set at Amnesia, Ibiza',
     category: 'Performances'
   },
   {
     id: '5',
-    src: '/src/assets/images/gallery/travel1.jpg',
+    src: './src/assets/images/gallery/travel1.jpg',
     alt: 'Traveling to Tokyo',
     caption: 'En route to Tokyo for Womb Club appearance',
     category: 'Travel'
   },
   {
     id: '6',
-    src: '/src/assets/images/gallery/backstage2.jpg',
+    src: './src/assets/images/gallery/backstage2.jpg',
     alt: 'Preparing for a show',
     caption: 'Pre-show preparation in Amsterdam',
     category: 'Backstage'
   },
   {
     id: '7',
-    src: '/src/assets/images/gallery/performance3.jpg',
+    src: './src/assets/images/gallery/performance3.jpg',
     alt: 'Festival mainstage performance',
     caption: 'EDC Las Vegas mainstage',
     category: 'Performances',
@@ -62,35 +62,35 @@ const galleryImages = [
   },
   {
     id: '8',
-    src: '/src/assets/images/gallery/studio2.jpg',
+    src: './src/assets/images/gallery/studio2.jpg',
     alt: 'Mixing a new track',
     caption: 'Finalizing the mix for "Electric Dreams"',
     category: 'Studio'
   },
   {
     id: '9',
-    src: '/src/assets/images/gallery/fans1.jpg',
+    src: './src/assets/images/gallery/fans1.jpg',
     alt: 'Meeting with fans',
     caption: 'Fan meetup in New York',
     category: 'Fans'
   },
   {
     id: '10',
-    src: '/src/assets/images/gallery/travel2.jpg',
+    src: './src/assets/images/gallery/travel2.jpg',
     alt: 'Scenic view from hotel',
     caption: 'View from hotel room in Rio de Janeiro',
     category: 'Travel'
   },
   {
     id: '11',
-    src: '/src/assets/images/gallery/performance4.jpg',
+    src: './src/assets/images/gallery/performance4.jpg',
     alt: 'Club night in Berlin',
     caption: 'Packed dancefloor at Watergate, Berlin',
     category: 'Performances'
   },
   {
     id: '12',
-    src: '/src/assets/images/gallery/fans2.jpg',
+    src: './src/assets/images/gallery/fans2.jpg',
     alt: 'Signing autographs',
     caption: 'Album signing event in Los Angeles',
     category: 'Fans'
@@ -101,7 +101,7 @@ const galleryImages = [
 const videoItems = [
   {
     id: 'video1',
-    src: '/src/assets/videos/video2.mp4', // Replace with actual video paths
+    src: './src/assets/videos/video2.mp4', // Replace with actual video paths
     poster: '/src/assets/images/gallery/release1.jpg',
     title: 'Ultra Music Festival Highlight',
     description: 'Dropping the beat during my headline set at Ultra Music Festival Miami',
@@ -110,7 +110,7 @@ const videoItems = [
   },
   {
     id: 'video2',
-    src: '/src/assets/videos/video2.mp4',
+    src: './src/assets/videos/video2.mp4',
     poster: '/src/assets/images/gallery/studio1.jpg',
     title: 'Studio Session',
     description: 'Behind the scenes of creating my latest track "Midnight Pulse"',
@@ -118,8 +118,8 @@ const videoItems = [
   },
   {
     id: 'video3',
-    src: '/src/assets/videos/video2.mp4',
-    poster: '/src/assets/images/gallery/backstage1.jpg',
+    src: './src/assets/videos/video2.mp4',
+    poster: './src/assets/images/gallery/backstage1.jpg',
     title: 'Backstage Vibes',
     description: 'Pre-show rituals with the crew before taking the stage',
     duration: '0:22'

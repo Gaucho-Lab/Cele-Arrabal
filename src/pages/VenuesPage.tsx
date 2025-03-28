@@ -21,7 +21,7 @@ const VenuesPage = (): React.ReactElement => {
       events: ['1'],
       featured: true,
       ratings: 4.8,
-      imageUrl: 'src/assets/images/release1.jpg'
+      imageUrl: './src/assets/images/release1.jpg'
     },
     {
       id: '2',
@@ -33,7 +33,7 @@ const VenuesPage = (): React.ReactElement => {
       capacity: 25000,
       events: ['2'],
       ratings: 4.5,
-      imageUrl: 'src/assets/images/release1.jpg'
+      imageUrl: './src/assets/images/release1.jpg'
     },
     {
       id: '3',
@@ -46,7 +46,7 @@ const VenuesPage = (): React.ReactElement => {
       events: ['3'],
       website: 'https://water-gate.de/',
       ratings: 4.7,
-      imageUrl: 'src/assets/images/release1.jpg'
+      imageUrl: './src/assets/images/release1.jpg'
     },
     {
       id: '4',
@@ -60,7 +60,7 @@ const VenuesPage = (): React.ReactElement => {
       website: 'https://www.amnesia.es/',
       featured: true,
       ratings: 4.9,
-      imageUrl: 'src/assets/images/release1.jpg'
+      imageUrl: './src/assets/images/release1.jpg'
     },
     {
       id: '5',
@@ -73,7 +73,7 @@ const VenuesPage = (): React.ReactElement => {
       events: ['5'],
       website: 'http://www.womb.co.jp/',
       ratings: 4.6,
-      imageUrl: 'src/assets/images/release1.jpg'
+      imageUrl: './src/assets/images/release1.jpg'
     },
     {
       id: '6',
@@ -86,7 +86,7 @@ const VenuesPage = (): React.ReactElement => {
       events: ['6'],
       website: 'https://www.melkweg.nl/',
       ratings: 4.4,
-      imageUrl: 'src/assets/images/release1.jpg'
+      imageUrl: './src/assets/images/release1.jpg'
     }
   ]
   

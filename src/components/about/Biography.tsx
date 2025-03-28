@@ -26,7 +26,7 @@ const Biography = () => {
             <div className="relative z-10 rounded-lg overflow-hidden h-[600px]">
               <div 
                 className="aspect-[3/4] bg-cover bg-center"
-                style={{ backgroundImage: "url('/src/assets/images/dj-portrait.jpg')" }}
+                style={{ backgroundImage: "url('./src/assets/images/dj-portrait.jpg')" }}
               />
               
               {/* Stats overlay */}
